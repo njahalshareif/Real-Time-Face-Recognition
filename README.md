@@ -8,10 +8,15 @@ Note: You should have Python3.8 and Visual studio code installed first.
 #### 3. Open windows Powershell
 
 $ cd .\Desktop\
+
 $ mkdir facerecog
+
 $ cd .\facerecog\
+
 $ git clone git://github.com/ageitgey/face_recognition
+
 $ pip install virtualenv
+
 $ virtualevn env
 
 Note : "env" is the name of your virtualevn
