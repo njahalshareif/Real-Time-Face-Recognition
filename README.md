@@ -65,19 +65,26 @@ Now you can run $ pip freeze to check that all dep installed
 #### 6. create python file "fileName.py"
 #### 7. run the following code
 
-import numpy as np
-import face_recognition as fr
-import cv2
 
-video_capture = cv2.VideoCapture(0)
 
-levi_image = fr.load_image_file("levi.jpg")
-levi_face_encoding = fr.face_encodings(levi_image)[0]#Analysis the picture (eyes,nose,size) then encode it 
-known_face_encondings = [levi_face_encoding]
 
-known_face_names = ["Levi"]
 
-while True: 
+
+
+
+    import numpy as np
+    import face_recognition as fr
+    import cv2
+
+    video_capture = cv2.VideoCapture(0)
+
+    levi_image = fr.load_image_file("levi.jpg")
+    levi_face_encoding = fr.face_encodings(levi_image)[0]#Analysis the picture (eyes,nose,size) then encode it 
+    known_face_encondings = [levi_face_encoding]
+
+    known_face_names = ["Levi"]
+
+    while True: 
     ret, frame = video_capture.read()#
 
     rgb_frame = frame[:, :, ::-1]#change the color to rgb frame
@@ -108,6 +115,8 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-video_capture.release()
-cv2.destroyAllWindows()
+    video_capture.release()
+    cv2.destroyAllWindows()
+
+
 
