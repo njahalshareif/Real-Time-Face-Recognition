@@ -71,7 +71,7 @@ Now you can run $ pip freeze to check that all dep installed
 
 
 
-https://github.com/njahalshareif/Real-Time-Face-Recognition/blob/main/face_recognition_webcam.py
+face_recognition_webcam.py
 
 
 # Results :
