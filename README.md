@@ -123,4 +123,8 @@ Now you can run $ pip freeze to check that all dep installed
     cv2.destroyAllWindows()
 
 
+# Results :
 
+#### Unknown
+
+#### known
