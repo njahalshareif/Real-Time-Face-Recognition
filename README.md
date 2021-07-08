@@ -45,7 +45,9 @@ You may see an error:
 
 Access to the registry key 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell' is denied. To change the execution policy for the default (LocalMachine) scope, start Windows PowerShell with the "Run as administrator" option. To change the execution policy for the current user, run "Set-ExecutionPolicy -Scope CurrentUser".
 
-So you may need to run the command like this : $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+So you may need to run the command like this : 
+
+$ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 $ cd..
 
