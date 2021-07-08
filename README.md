@@ -118,4 +118,4 @@ Now you can run $ pip freeze to check that all dep installed
     video_capture.release()
     cv2.destroyAllWindows()
 
-done ..
+## done ..
