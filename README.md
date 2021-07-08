@@ -3,9 +3,9 @@ Real-time Face Recognition by OpenCV &amp; python
 
 ***Note: You should have Python3.8 and Visual studio code installed first***.
 
-#### 1. install Python 3.8.3 Check Add Python 3.8 to PATH
-#### 2. Downloaded Visual Studio with Python Development package, Node.JS, Desktop web c++
-#### 3. Open windows Powershell
+## 1. install Python 3.8.3 Check Add Python 3.8 to PATH
+## 2. Downloaded Visual Studio with Python Development package, Node.JS, Desktop web c++
+## 3. Open windows Powershell
 
 $ cd .\Desktop\
 
@@ -64,10 +64,10 @@ $ python setup.py install
 
 Now you can run $ pip freeze to check that all dep installed
 
-#### 4. Put photo in face_recogintion dirctory the face in photo it should be clear
-#### 5. Open face_recogintion folder in visual studio
-#### 6. create python file "fileName.py"
-#### 7. run the following code
+## 4. Put photo in face_recogintion dirctory the face in photo it should be clear
+## 5. Open face_recogintion folder in visual studio
+## 6. create python file "fileName.py"
+## 7. run the following code
 
 
 
