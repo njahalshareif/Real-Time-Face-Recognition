@@ -29,7 +29,7 @@ $ cd .\Scripts\
 
 $ cd .\activate\
 
-***Error : PowerShell says “execution of scripts is disabled on this system.”*** when I run activate
+***Error : PowerShell says “execution of scripts is disabled on this system.” when I run activate***
 
 Solution : As an Administrator, you can set the execution policy by typing this into your PowerShell window:
 
