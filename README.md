@@ -37,7 +37,7 @@ $ Set-ExecutionPolicy RemoteSigned
 
 For more information, see Using the Set-ExecutionPolicy Cmdlet.
 
-When you are done, you can set the policy back to its default value with:
+When you are done, you can set the policy back to its default value using:
 
 $ Set-ExecutionPolicy Restricted 
 
@@ -63,13 +63,14 @@ $ pip install cmake
 
 $ python setup.py install
 
+To check that all dep installed type:
 
-Now you can run $ pip freeze to check that all dep installed
+$ pip freeze 
 
-### 4. Put photo in face_recogintion dirctory the face in photo it should be clear
+### 4. Put photo in face_recogintion dirctory the face in photo should be clear
 ### 5. Open face_recogintion folder in visual studio
-### 6. create python file "fileName.py"
-### 7. run the following code
+### 6. Create python file "fileName.py"
+### 7. Run the following code
 
 
 
@@ -119,5 +120,6 @@ Now you can run $ pip freeze to check that all dep installed
 
     video_capture.release()
     cv2.destroyAllWindows()
+    
 
 #### done ..
