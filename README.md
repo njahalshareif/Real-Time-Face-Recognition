@@ -21,7 +21,7 @@ $ virtualevn env
 
 ***Note : "env" is the name of your virtualenv***
 
-#### activite the virtualevn
+#### activite the virtualenv
 
 $ cd .\env\
 
