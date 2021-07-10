@@ -19,7 +19,7 @@ $ pip install virtualenv
 
 $ virtualevn env
 
-***Note : "env" is the name of your virtualevn***
+***Note : "env" is the name of your virtualenv***
 
 #### activite the virtualevn
 
