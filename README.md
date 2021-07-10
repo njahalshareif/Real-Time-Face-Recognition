@@ -17,7 +17,7 @@ $ git clone git://github.com/ageitgey/face_recognition
 
 $ pip install virtualenv
 
-$ virtualevn env
+$ virtualenv env
 
 ***Note : "env" is the name of your virtualenv***
 
